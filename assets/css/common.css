@@ -1,0 +1,111 @@
+select::-ms-expand {
+    display: none
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'D-DIN-Reg';
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, button, input, textarea, p, select, blockquote, th, td, img, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'D-DIN-Reg';
+    font-weight: 400;
+    color: #000;
+}
+
+b {
+    font-weight: normal;
+    font-family: 'D-DIN-Bold';
+}
+
+html, body {
+    font-size: 100%;
+}
+
+li {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+h1, h2, p {
+    color: #212429;
+    word-break: break-word;
+}
+
+a:hover {}
+
+a:active {
+    text-decoration: none
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+img {
+    display: block;
+    border: 0
+}
+
+button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    outline: none
+}
+
+input, select, textarea {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #fff;
+    outline: none;
+    border-radius: 0;
+}
+
+input[type=password] {
+    font-family: 'Arial';
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+@media(max-width:1920px) {
+    html, body {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1620px) {
+    html, body {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1080px) {
+    html, body {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:600px) {
+    html, body {
+        font-size: 16px;
+    }
+}

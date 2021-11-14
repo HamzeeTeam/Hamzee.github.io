@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'D-DIN-Reg';
+	font-style: normal;
+	font-weight: 300;
+	src: url('/assets/font/D-DIN.ttf') format('truetype'),
+	   url('/assets/font/D-DIN.woff2') format('woff2'),
+	   url('/assets/font/D-DIN.woff') format('woff');
+	}
+
+@font-face {
+	font-family: 'D-DIN-Bold';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/assets/font/D-DIN-Bold.ttf') format('truetype'),
+	   url('/assets/font/D-DIN-Bold.woff2') format('woff2'),
+	   url('/assets/font/D-DIN-Bold.woff') format('woff');
+	}
